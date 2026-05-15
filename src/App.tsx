@@ -3,6 +3,7 @@ import LoginForm from "./components/LoginForm.tsx";
 import Button from "./components/Button/Button.tsx";
 import UserListSearch from "./components/UserListSearch.tsx";
 import ToggleBlock from "./components/ToggleBlock.tsx";
+import TodoApp from "./components/Todo/TodoApp.tsx";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
 
           <Button onClick={() => console.log("Done")} children={'Click me'} variant='danger'/>
 
+          <TodoApp/>
       </div>
   )
 }
